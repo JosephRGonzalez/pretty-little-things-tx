@@ -1951,26 +1951,32 @@ input::-ms-clear {
 
 /* 6.1 Primary Nav */
 .primary-nav-wrapper--border {
-  border-bottom: 1px solid #f8f8f8; }
+  border-bottom: 0px solid #f8f8f8; }
 
 .primary-nav {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   position: relative;
   height: 80px;
   width: 100%;
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
   -ms-flex-align: center;
       align-items: center; }
 
 .main-logo {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+  height:auto;
+  margin-left: 0;
+ 
+}
   .main-logo img {
-    display: block; }
+    display: block;
+    width:100%;
+     }
 
 .main-form {
   position: relative;
@@ -1993,7 +1999,7 @@ input::-ms-clear {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   position: relative;
   height: 80px;
   width: 100%;
