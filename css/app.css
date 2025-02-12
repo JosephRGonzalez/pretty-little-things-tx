@@ -2448,7 +2448,7 @@ color:white;}
     bottom: 0;
     top: 0;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.4); }
+    background-color: rgba(0, 0 , 0, 0.4); }
   .collection__img {
     -webkit-transform: scale(1);
             transform: scale(1);
